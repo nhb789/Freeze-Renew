@@ -28,8 +28,7 @@ function sendTG(result) {
             `🎮 FreezeHost 续期报告`,
             `🕐 时间: ${nowStr()}`,
             `========================`,
-            `${result}`,
-            `🌐 官网入口: https://free.freezehost.pro`
+            `${result}`
         ].join('\n');
 
         const body = JSON.stringify({ chat_id: TG_CHAT_ID, text: msg });
